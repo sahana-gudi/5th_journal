@@ -8,5 +8,6 @@ P = float(sys.argv[1])
 R = float(sys.argv[2])
 T = float(sys.argv[3])
 
-SI = (P * R * T) / 100
-print("Simple Interest =", SI)
+si = (P * R * T) / 100
+
+print("Simple Interest:", si)
